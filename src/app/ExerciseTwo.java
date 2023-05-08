@@ -22,8 +22,8 @@ public class ExerciseTwo {
 
 			System.out.println("Sono stati percorsi " + kmPerLiter(km, fuel) + "km con un litro.");
 
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
+		} catch (ArithmeticException e) {
+			System.out.println("Puoi inserire solo numeri positivi");
 		}
 
 		input.close();
